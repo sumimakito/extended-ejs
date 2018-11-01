@@ -2,10 +2,19 @@
 
 # Extended EJS
 
+[![npm version](https://badge.fury.io/js/extended-ejs.svg)](https://www.npmjs.com/package/extended-ejs)
+[![license](https://img.shields.io/github/license/SumiMakito/extended-ejs.svg)](LICENSE)
+[![dependencies Status](https://david-dm.org/SumiMakito/extended-ejs/status.svg)](https://david-dm.org/SumiMakito/extended-ejs)
+
+
 Extended EJS works as a wrapper and pre-compiler for the well-known [EJS](https://github.com/mde/ejs) template, which aims to provide the missing support for blocks and the inheritance in EJS.
 
 It's quite simple and **won't** place side effects on your original EJS templates.
 
+
+## Install
+
+Run `npm install extended-ejs` or `yarn add extended-ejs`.
 
 ## Examples
 
