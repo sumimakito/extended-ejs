@@ -5,7 +5,7 @@
 [![npm version](https://badge.fury.io/js/extended-ejs.svg)](https://www.npmjs.com/package/extended-ejs)
 [![license](https://img.shields.io/github/license/SumiMakito/extended-ejs.svg)](LICENSE)
 [![dependencies Status](https://david-dm.org/SumiMakito/extended-ejs/status.svg)](https://david-dm.org/SumiMakito/extended-ejs)
-
+[![Known Vulnerabilities](https://snyk.io/test/github/SumiMakito/extended-ejs/badge.svg?targetFile=package.json)](https://snyk.io/test/github/SumiMakito/extended-ejs?targetFile=package.json)
 
 Extended EJS works as a wrapper and pre-compiler for the well-known [EJS](https://github.com/mde/ejs) template, which aims to provide the missing support for blocks and the inheritance in EJS.
 
