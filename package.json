@@ -1,0 +1,22 @@
+{
+  "name": "xejs",
+  "description": "Extended EJS template",
+  "version": "1.0.0",
+  "author": "Makito <sumimakito@hotmail.com>",
+  "keywords": [
+    "template",
+    "engine",
+    "ejs"
+  ],
+  "devDependencies": {
+    "eslint": "^5.8.0"
+  },
+  "main": "./index.js",
+  "repository": "",
+  "scripts": {
+    "test": "exit"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1"
+  }
+}
