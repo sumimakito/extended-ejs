@@ -6,7 +6,6 @@ const {renderBlocks, renderExtension} = require('./renderer');
 
 compile = (input, workdir = null, fileRef = null) => {
     const template = new ParsedTemplate();
-    console.log(template);
     template.raw = input;
     template.file = fileRef ? path.basename(fileRef) : null;
     if (workdir) {
