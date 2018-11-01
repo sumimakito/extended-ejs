@@ -1,13 +1,13 @@
 {
-  "name": "xejs",
-  "description": "The eXtended EJS template",
+  "name": "extended-ejs",
+  "description": "The extended EJS template",
   "version": "1.0.0",
   "author": "Makito <sumimakito@hotmail.com>",
   "keywords": [
     "template",
     "engine",
     "ejs",
-    "xejs"
+    "extended-ejs"
   ],
   "devDependencies": {
     "eslint": "^5.8.0"
@@ -15,7 +15,7 @@
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SumiMakito/xejs.git"
+    "url": "https://github.com/SumiMakito/extended-ejs.git"
   },
   "license": "MIT",
   "scripts": {},
