@@ -37,7 +37,7 @@ Here, assume we got two files.
 Hello <span style="color: red">world</span>
 [% @end %]
 
-[% @block content %]
+[% @impl content %]
 <h3>My name is <%= name %>.</h3>
 [% @end %]
 ```
