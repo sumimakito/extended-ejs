@@ -94,7 +94,7 @@ With `@block`, you can define blocks in your template.
 
 - `[% @block "wrap this if you want to play with spaces" %]`
 
-> Every block definition **must** have a corresponding implementation, otherwise it will be considered to be an error. If a block in the extended template has no implementation, the pre-compiler will also throw an error.
+> Every block definition **must** have a corresponding implementation, otherwise it will be considered to be an error. If a block in the extended template has no implementation and the strict mode is enabled, the pre-compiler will also throw an error.
 
 ## Implementation
 
@@ -106,14 +106,14 @@ Use `[% @impl aliasForBlock %]` to begin an implementation for a block.
 
 **Don't** forget to end your implementation with a `[% @end %]`.
 
-> Implementing the same block alias twice will be regarded as an error. An error will also be thrown if the extended template has already implemented the block alias that the one who extends attempts to implement.
+> Implementing the same block alias twice will be regarded as an error. An error will also be thrown if the extended template has already implemented the block alias that the one who extends attempts to implement when the strict mode is enabled.
 
 ## Compile
 
 **Usage:**
 
 ```
-compile(input, workDir?, fileRef?)
+compile(input, workDir?, fileRef?, strict? = false)
 ```
 
 Pre-compile the string presented template and make it reusable.
@@ -138,7 +138,7 @@ console.log(compiled.render({ name: 'Makino' }));
 **Usage:**
 
 ```
-render(input, localVars, outputFile?)
+render(input, localVars, outputFile?, strict? = false)
 ```
 
 #### Files
@@ -146,7 +146,7 @@ render(input, localVars, outputFile?)
 **Usage:**
 
 ```
-renderFile(inputFile, localVars, outputFile?)
+renderFile(inputFile, localVars, outputFile?, strict? = false)
 ```
 
 Both methods above return the rendered template as a string, with local variables rendered.
